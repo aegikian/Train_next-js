@@ -1,0 +1,30 @@
+.burgers_container{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.link_burger {
+    text-decoration: none;
+    color: black;
+}
+
+.burger_container {
+    margin-left: 2vw;
+}
+
+.burger_image {
+    border-radius: 15px;
+    box-shadow: 0px 1px 20px rgb(174, 171, 171);
+}
+
+.burger_desc {
+    width: 60%;
+}
+
+.burger_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

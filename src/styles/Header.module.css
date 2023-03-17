@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    background-color: #c37208;
+    padding: 2vh;
+    border-radius: 12px;
+    margin-bottom: 2vh;
+    margin-top: -0.5vh;
+    position: sticky;
+}
+
+.link_nav {
+    margin-left: 1vw;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.ham_pic {
+    color: white;
+}
+
+.link_nav:hover {
+    color: rgb(255, 255, 255);
+}
+
+.link_nav:active {
+    color: rgb(255, 255, 255);
+}
+
