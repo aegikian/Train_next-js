@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import { FaHamburger } from 'react-icons/fa'
-import styles from '../styles/Header.module.css'
+import { useState } from 'react';
+import { FaHamburger } from 'react-icons/fa';
+import styles from '../styles/Header.module.css';
 
 const Header = () => {
     const [locations, setLocation] = useState(() => {

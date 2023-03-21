@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import React from 'react'
-import styles from '../styles/Rewievs.module.css'
+import React from 'react';
+import styles from '../styles/Rewievs.module.css';
 
 export async function getServerSideProps() {
     const response = await fetch(`https://jsonplaceholder.typicode.com/comments?_limit=10`);

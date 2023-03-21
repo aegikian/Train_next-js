@@ -1,6 +1,6 @@
-import Image from "next/image"
-import Link from "next/link"
-import styles from '../../styles/Burgers.module.css'
+import Image from "next/image";
+import Link from "next/link";
+import styles from '../../styles/Burgers.module.css';
 
 export const getStaticProps = async (context) => {
   const res = await fetch(`http://localhost:5000/items`)

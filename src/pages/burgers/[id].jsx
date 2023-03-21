@@ -1,6 +1,6 @@
-import Image from "next/image"
-import { useRouter } from "next/router"
-import styles from "../../styles/Burgers.module.css"
+import Image from "next/image";
+import { useRouter } from "next/router";
+import styles from "../../styles/Burgers.module.css";
 
 export async function getServerSideProps({ params }) {
   const response = await fetch(`http://localhost:5000/items/${params.id}`)

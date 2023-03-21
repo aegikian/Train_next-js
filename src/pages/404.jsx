@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
+
 const Page_404 = () => {
 
     const [timer, setTimer] = useState(3)
